@@ -1,17 +1,31 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Strata by HTML5 UP</title>
+		<title>AICTE - Indian Traditional System</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<script src="./assets/ckeditor/ckeditor.js"></script>
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="src/main.css" />
 	</head>
 	<body class="is-preload">
 			<header id="header">
 				<div class="inner">
 					<!-- <h1 style="color: black;"><strong style="color: black;">Indian Traditional System</strong><br />
 					Build Your Portfolio<br /> -->
+
+					<!-- Field of Research
+
+
+, , , , , , , , , , 
+
+										
+
+
+
+ -->
+
 				</div>
 			</header>
 			<div id="main">
@@ -26,6 +40,8 @@
 							</center>
 
 						</header>
+						
+						<?php include './messages.php' ?>
 						<span style="color: black; font-size: 20px;">
 							Hon’ble Minister for Human Resources Development welcomed all the members
 							and elaborated the need for holding such a meeting to understand who all are working in the
@@ -62,107 +78,296 @@
 				<!-- Two -->
 					<section id="two">
 						<h2 style="color: black;">Your Details</h2>
-							<form method="post" action="#">
+								<form action="./src/main.php" method="POST" >
 									<div class="row gtr-uniform gtr-50">
 										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Full Name" /></div>
 										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Phone No." /></div>
-										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Work Location/Institute" /></div>
+										<div class="col-12 col-12-xsmall"><input type="text" name="phone" id="name" placeholder="Phone No." /></div>
+
+										
+
+
+										<small style="margin-right: 15%;">Worked As</small>
+										<div class="col-4 col-12-small">
+											<input type="radio" id="demo-priority-normal" value="Individual" name="worked_as" checked>
+											<label style="color: black;" for="demo-priority-normal">Individual</label>
+										</div>
+										<div class="col-4 col-12-small">
+											<input type="radio" id="demo-priority-high" value="Organization" name="worked_as">
+											<label style="color: black;" for="demo-priority-high">Organization</label>
+										</div>
+
+										
+
+
+										<div class="col-12 col-12-xsmall">
+											<input id="workLocation" value="Not Selected" type="hidden" name="work_location" placeholder="Work Location/Institute" />
+										</div>
 
 									</div>
-							</form>
 					</section>
 
 				<!-- Three -->
 					<section id="three">
 						<h2 style="color: black;">Past Research</h2>
-							<form method="post" action="#">
 									<div class="row gtr-uniform gtr-50">
-										<div class="col-12 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Title" /></div>
+
+										<div class="col-12">
+											<select name="past_research_field_interest" id="demo-category">
+												<option value="">- Select Your Field of Interest -</option>
+												<option value="Arts">Arts</option>
+												<option value="Music">Music</option>
+												<option value="Dance">Dance</option>
+												<option value="Drama">Drama</option>
+												<option value="Culture">Culture</option>
+												<option value="Agriculture">Agriculture</option>
+												<option value="Water">Water</option>
+												<option value="Harvesting">Harvesting</option>
+												<option value="Health">Health</option>
+												<option value="Ayurveda">Ayurveda</option>
+												<option value="Nadi Pariksha (Pulse examination)">Nadi Pariksha (Pulse examination)</option>
+												<option value="Yoga">Yoga</option>
+												<option value="Mathematics">Mathematics</option>
+												<option value="Science and Technology">Science and Technology</option>
+												<option value="Physics">Physics</option>
+												<option value="Chemistry">Chemistry</option>
+												<option value="Botany">Botany</option>
+												<option value="Zoology">Zoology</option>
+												<option value="Astronomy">Astronomy</option>
+												<option value="Energy">Energy</option>
+												<option value="Sources">Sources</option>
+												<option value="Panchang">Panchang</option>
+												<option value="Civil">Civil</option>
+												<option value="Engineering">Engineering</option>
+												<option value="Architecture">Architecture</option>
+												<option value="Temple Architecture">Temple Architecture</option>
+												<option value="Materials and Mechanical Engineering">Materials and Mechanical Engineering</option>
+												<option value="Musical Instruments">Musical Instruments</option>
+												<option value="Philosophy">Philosophy</option>
+												<option value="Geo Archeology">Geo Archeology</option>
+												<option value="Social Sciences">Social Sciences</option>
+												<option value="Management">Management</option>
+												<option value="Governance">Governance</option>
+												<option value="Economics">Economics</option>
+												<option value="Language">Language</option>
+												<option value="Literature">Literature</option>
+												<option value="Linguistics">Linguistics</option>
+												<option value="Sports">Sports</option>
+												<option value="Mantras">Mantras</option>
+												<option value="Genetics">Genetics</option>
+												<option value="Embryo">Embryo</option>
+												<option value="Gynaecology">Gynaecology</option>
+												<option value="Computational Sanskrit">Computational Sanskrit</option>
+												<option value="Ancient universities">Ancient universities</option>
+												<option value="Effective teaching learning systems">Effective teaching learning systems</option>
+												<option value="Oral Tradition">Oral Tradition</option>
+												<option value="Ancient knowledge in sanskrit">Ancient knowledge in sanskrit</option>
+												<option value="Ancient knowledge in tamil">Ancient knowledge in tamil</option>
+												<option value="Ancient knowledge in prakriti">Ancient knowledge in prakriti</option>
+												<option value="Ancient knowledge in pali">Ancient knowledge in pali</option>
+											</select>
+										</div>
+
+
+										<div class="col-12 col-12-xsmall"><input type="text" name="past_publication_title" id="past_title" placeholder="Title" /></div>
 										<small>Description</small>
-										<div class="col-12"><textarea name="description" id="description" placeholder="Description" rows="4"></textarea></div>
-										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Research Reference / Book / Publication URL" /></div>
-										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Youtube/Video URL" /></div>
+										<div class="col-12"><textarea name="past_description" id="past_description" placeholder="Description" rows="4"></textarea></div>
+										<div class="col-6 col-12-xsmall"><input type="text" name="past_publication_url" id="name" placeholder="Research Reference / Book / Publication URL" /></div>
+										<div class="col-6 col-12-xsmall"><input type="text" name="past_video_url" id="name" placeholder="Youtube/Video URL" /></div>
 
 
 										<small>Expert References 1</small>
-										<div class="col-12"><input type="text" name="name" id="name" placeholder="Full Name" /></div>
-										<div class="col-4 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-										<div class="col-4 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Phone No." /></div>
-										<div class="col-4 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Role/Designation" /></div>
+										<div class="col-12"><input type="text" name="past_expert_name" id="name" placeholder="Full Name" /></div>
+										<div class="col-4 col-12-xsmall"><input type="email" name="past_expert_email" id="email" placeholder="Email" /></div>
+										<div class="col-4 col-12-xsmall"><input type="text" name="past_expert_phone" id="name" placeholder="Phone No." /></div>
+										<div class="col-4 col-12-xsmall"><input type="text" name="past_expert_role" id="name" placeholder="Role/Designation" /></div>
 
 
 										<div class="col-12">Expert References 2</div>
-										<div class="col-12"><input type="text" name="name" id="name" placeholder="Full Name" /></div>
-										<div class="col-4 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-										<div class="col-4 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Phone No." /></div>
-										<div class="col-4 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Role/Designation" /></div>
+										<div class="col-12"><input type="text" name="past_expert2_name" id="name" placeholder="Full Name" /></div>
+										<div class="col-4 col-12-xsmall"><input type="email" name="past_expert2_email" id="email" placeholder="Email" /></div>
+										<div class="col-4 col-12-xsmall"><input type="text" name="past_expert2_phone" id="name" placeholder="Phone No." /></div>
+										<div class="col-4 col-12-xsmall"><input type="text" name="past_expert2_role" id="name" placeholder="Role/Designation" /></div>
 
 										<!-- <div class="col-12"><textarea name="description" id="description" placeholder="Description" rows="4"></textarea></div> -->
 									</div>
-							</form>
 					</section>
 
 					<section id="three">
 						<h2 style="color: black;">Present Research</h2>
-							<form method="post" action="#">
 									<div class="row gtr-uniform gtr-50">
-										<div class="col-12 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Title" /></div>
+
+										<div class="col-12">
+											<select name="present_research_field_interest" id="demo-category">
+												<option value="">- Select Your Field of Interest -</option>
+												<option value="Arts">Arts</option>
+												<option value="Music">Music</option>
+												<option value="Dance">Dance</option>
+												<option value="Drama">Drama</option>
+												<option value="Culture">Culture</option>
+												<option value="Agriculture">Agriculture</option>
+												<option value="Water">Water</option>
+												<option value="Harvesting">Harvesting</option>
+												<option value="Health">Health</option>
+												<option value="Ayurveda">Ayurveda</option>
+												<option value="Nadi Pariksha (Pulse examination)">Nadi Pariksha (Pulse examination)</option>
+												<option value="Yoga">Yoga</option>
+												<option value="Mathematics">Mathematics</option>
+												<option value="Science and Technology">Science and Technology</option>
+												<option value="Physics">Physics</option>
+												<option value="Chemistry">Chemistry</option>
+												<option value="Botany">Botany</option>
+												<option value="Zoology">Zoology</option>
+												<option value="Astronomy">Astronomy</option>
+												<option value="Energy">Energy</option>
+												<option value="Sources">Sources</option>
+												<option value="Panchang">Panchang</option>
+												<option value="Civil">Civil</option>
+												<option value="Engineering">Engineering</option>
+												<option value="Architecture">Architecture</option>
+												<option value="Temple Architecture">Temple Architecture</option>
+												<option value="Materials and Mechanical Engineering">Materials and Mechanical Engineering</option>
+												<option value="Musical Instruments">Musical Instruments</option>
+												<option value="Philosophy">Philosophy</option>
+												<option value="Geo Archeology">Geo Archeology</option>
+												<option value="Social Sciences">Social Sciences</option>
+												<option value="Management">Management</option>
+												<option value="Governance">Governance</option>
+												<option value="Economics">Economics</option>
+												<option value="Language">Language</option>
+												<option value="Literature">Literature</option>
+												<option value="Linguistics">Linguistics</option>
+												<option value="Sports">Sports</option>
+												<option value="Mantras">Mantras</option>
+												<option value="Genetics">Genetics</option>
+												<option value="Embryo">Embryo</option>
+												<option value="Gynaecology">Gynaecology</option>
+												<option value="Computational Sanskrit">Computational Sanskrit</option>
+												<option value="Ancient universities">Ancient universities</option>
+												<option value="Effective teaching learning systems">Effective teaching learning systems</option>
+												<option value="Oral Tradition">Oral Tradition</option>
+												<option value="Ancient knowledge in sanskrit">Ancient knowledge in sanskrit</option>
+												<option value="Ancient knowledge in tamil">Ancient knowledge in tamil</option>
+												<option value="Ancient knowledge in prakriti">Ancient knowledge in prakriti</option>
+												<option value="Ancient knowledge in pali">Ancient knowledge in pali</option>
+											</select>
+										</div>
+
+										<div class="col-12 col-12-xsmall"><input type="text" name="present_publication_title" id="name" placeholder="Title" /></div>
 										<small>Description</small>
-										<div class="col-12"><textarea name="description" id="description" placeholder="Description" rows="4"></textarea></div>
-										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Research Reference / Book / Publication URL" /></div>
-										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Youtube/Video URL" /></div>
+										<div class="col-12"><textarea name="present_description" id="present_description" placeholder="Description" rows="4"></textarea></div>
+										<div class="col-6 col-12-xsmall"><input type="text" name="present_publication_url" id="name" placeholder="Research Reference / Book / Publication URL" /></div>
+										<div class="col-6 col-12-xsmall"><input type="text" name="present_video_url" id="name" placeholder="Youtube/Video URL" /></div>
 
 
 										<small>Expert References 1</small>
-										<div class="col-12"><input type="text" name="name" id="name" placeholder="Full Name" /></div>
-										<div class="col-4 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-										<div class="col-4 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Phone No." /></div>
-										<div class="col-4 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Role/Designation" /></div>
+										<div class="col-12"><input type="text" name="present_expert_name" id="name" placeholder="Full Name" /></div>
+										<div class="col-4 col-12-xsmall"><input type="email" name="present_expert_email" id="email" placeholder="Email" /></div>
+										<div class="col-4 col-12-xsmall"><input type="text" name="present_expert_phone" id="name" placeholder="Phone No." /></div>
+										<div class="col-4 col-12-xsmall"><input type="text" name="present_expert_role" id="name" placeholder="Role/Designation" /></div>
 
 
 										<div class="col-12">Expert References 2</div>
-										<div class="col-12"><input type="text" name="name" id="name" placeholder="Full Name" /></div>
-										<div class="col-4 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-										<div class="col-4 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Phone No." /></div>
-										<div class="col-4 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Role/Designation" /></div>
+										<div class="col-12"><input type="text" name="present_expert2_name" id="name" placeholder="Full Name" /></div>
+										<div class="col-4 col-12-xsmall"><input type="email" name="present_expert2_email" id="email" placeholder="Email" /></div>
+										<div class="col-4 col-12-xsmall"><input type="text" name="present_expert2_phone" id="name" placeholder="Phone No." /></div>
+										<div class="col-4 col-12-xsmall"><input type="text" name="present_expert2_role" id="name" placeholder="Role/Designation" /></div>
 
 										<!-- <div class="col-12"><textarea name="description" id="description" placeholder="Description" rows="4"></textarea></div> -->
 									</div>
-							</form>
 					</section>
 
 					<section id="three">
 						<h2 style="color: black;">Intrested field of Future research and IKS activities</h2>
-							<form method="post" action="#">
 									<div class="row gtr-uniform gtr-50">
-										<small>Field of Interest</small>
-										<small>Any other tasks of IKS division</small>
-										<select>
-											<option>Identify Scholars & Institutions in IKS & collect information</option>
-											<option>Investigate the cliams and certify authenticity</option>
-											<option>Work for IKS Wiki</option>
-											<option>Carry out research in IKS</option>
-											<option>Be a referrer for evaluating proposls</option>
-											<option>Help in writing Interactive books for School Education</option>
-											<option>Help in writing books for Higher Education</option>
-											<option>Help in creating awareness about IKS & dissemination</option>
-										</select>
+
+
+										<div class="col-12 col-12-xsmall">
+											<select name="future_research_field_interest" id="demo-category">
+												<option value="">- Select Your Field of Interest -</option>
+												<option value="Arts">Arts</option>
+												<option value="Music">Music</option>
+												<option value="Dance">Dance</option>
+												<option value="Drama">Drama</option>
+												<option value="Culture">Culture</option>
+												<option value="Agriculture">Agriculture</option>
+												<option value="Water">Water</option>
+												<option value="Harvesting">Harvesting</option>
+												<option value="Health">Health</option>
+												<option value="Ayurveda">Ayurveda</option>
+												<option value="Nadi Pariksha (Pulse examination)">Nadi Pariksha (Pulse examination)</option>
+												<option value="Yoga">Yoga</option>
+												<option value="Mathematics">Mathematics</option>
+												<option value="Science and Technology">Science and Technology</option>
+												<option value="Physics">Physics</option>
+												<option value="Chemistry">Chemistry</option>
+												<option value="Botany">Botany</option>
+												<option value="Zoology">Zoology</option>
+												<option value="Astronomy">Astronomy</option>
+												<option value="Energy">Energy</option>
+												<option value="Sources">Sources</option>
+												<option value="Panchang">Panchang</option>
+												<option value="Civil">Civil</option>
+												<option value="Engineering">Engineering</option>
+												<option value="Architecture">Architecture</option>
+												<option value="Temple Architecture">Temple Architecture</option>
+												<option value="Materials and Mechanical Engineering">Materials and Mechanical Engineering</option>
+												<option value="Musical Instruments">Musical Instruments</option>
+												<option value="Philosophy">Philosophy</option>
+												<option value="Geo Archeology">Geo Archeology</option>
+												<option value="Social Sciences">Social Sciences</option>
+												<option value="Management">Management</option>
+												<option value="Governance">Governance</option>
+												<option value="Economics">Economics</option>
+												<option value="Language">Language</option>
+												<option value="Literature">Literature</option>
+												<option value="Linguistics">Linguistics</option>
+												<option value="Sports">Sports</option>
+												<option value="Mantras">Mantras</option>
+												<option value="Genetics">Genetics</option>
+												<option value="Embryo">Embryo</option>
+												<option value="Gynaecology">Gynaecology</option>
+												<option value="Computational Sanskrit">Computational Sanskrit</option>
+												<option value="Ancient universities">Ancient universities</option>
+												<option value="Effective teaching learning systems">Effective teaching learning systems</option>
+												<option value="Oral Tradition">Oral Tradition</option>
+												<option value="Ancient knowledge in sanskrit">Ancient knowledge in sanskrit</option>
+												<option value="Ancient knowledge in tamil">Ancient knowledge in tamil</option>
+												<option value="Ancient knowledge in prakriti">Ancient knowledge in prakriti</option>
+												<option value="Ancient knowledge in pali">Ancient knowledge in pali</option>
+											</select>
+										</div>
+
+										<div class="col-12 col-12-xsmall">
+											<select name="future_anyOther" id="future_anyOther">
+												<option selected disabled>- Any other tasks of IKS division -</option>
+												<option value="Identify Scholars & Institutions in IKS & collect information">Identify Scholars & Institutions in IKS & collect information</option>
+												<option value="Investigate the cliams and certify authenticity">Investigate the cliams and certify authenticity</option>
+												<option value="Work for IKS Wiki">Work for IKS Wiki</option>
+												<option value="Carry out research in IKS">Carry out research in IKS</option>
+												<option value="Be a referrer for evaluating proposls">Be a referrer for evaluating proposls</option>
+												<option value="Help in writing Interactive books for School Education">Help in writing Interactive books for School Education</option>
+												<option value="Help in writing books for Higher Education">Help in writing books for Higher Education</option>
+												<option value="Help in creating awareness about IKS & dissemination">Help in creating awareness about IKS & dissemination</option>
+											</select>
+										</div>
+
+										<small>Description</small>
 										<div class="col-12"><textarea name="description_future" id="description_future" placeholder="Description" rows="4"></textarea></div>
 
 										<!-- <div class="col-12"><textarea name="description" id="description" placeholder="Description" rows="4"></textarea></div> -->
 									</div>
-							</form>
 					</section>
-					<div class="col-12">
+					<div class="col-12" style="margin-top: 2%;">
 						<ul style="margin-left: 30%;" class="actions">
-							<li><input type="submit" value="Submit" class="primary" /></li>
+							<li><input type="submit" name="btnSubmit" value="Submit" class="primary" /></li>
 							<li><input type="reset" value="Reset" /></li>
 						</ul>
 					</div>
+				</form>
 
 				<!-- Four -->
-				<!--
+<!-- 				
 					<section id="four">
 						<h2>Elements</h2>
 
@@ -477,7 +682,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 						</section>
 
 					</section>
-				-->
+				 -->
 
 			</div>
 
@@ -503,8 +708,11 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="src/main.js"></script>
+			
 			<script>
-				CKEDITOR.replace('description');
+				CKEDITOR.replace('present_description');
+				CKEDITOR.replace('past_description');
 				CKEDITOR.replace('description_future');
 			</script>
 
