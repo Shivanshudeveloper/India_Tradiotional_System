@@ -5,8 +5,8 @@ $(document).ready(function(){
 			$("#workLocation").attr('type', 'text');
 			$("#workLocation").attr('value', '');
 		} else {
-			$("#workLocation").attr('type', 'hidden');
-			$("#workLocation").attr('value', 'Not Selected');
+			$("#workLocation").attr('type', 'text');
+			$("#workLocation").attr('value', '');
         }
 	});
 });

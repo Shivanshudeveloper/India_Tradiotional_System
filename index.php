@@ -43,35 +43,8 @@
 						
 						<?php include './messages.php' ?>
 						<span style="color: black; font-size: 20px;">
-							Hon’ble Minister for Human Resources Development welcomed all the members
-							and elaborated the need for holding such a meeting to understand who all are working in the
-							area of Indian Traditional Knowledge System passionately, creating awareness and carrying out
-							research on these topics. Hon’ble HRM mentioned that the ancient oldest universities of
-							Takshila and Nalanda took roots here and spread knowledge and wisdom in the areas of
-							philosophy, science, technology, research and were called Vishvaguru and referred to the
-							scientists such as Aryabhatta, Bhaskara, Nagarjuna, Patanjali, Sushruta, Bodhayana etc. Hon’ble
-							HRM further mentioned that while referring to their scientific works, we must have verified
-							scientific evidence to get credence and time has come to unearth this treasure, understand it
-							and do further research and provide this knowledge to the entire world. The work is going on in
-							several IITs, IIMs, IISERs, NITs, Central universities, Sanskrit universities etc. and this meeting of
-							eminent experts should lead to collation of information, which in turn will serve multiple
-							purposes such as:
-							1. There are several like-minded people working in this field in the country.
-							2. It will help in adding the right content in the school text books for inspiring young children
-							about our rich heritage.
-							3. Unearth wealth of knowledge hidden in several manuscripts.
-							4. Open new vistas for research based on the unearthed knowledge and taking it forward for
-							helping the society and the mankind.
-							5. Open up Indian knowledge to the entire world “Vasudhaiva Kutumbakam”.
-
-							The areas in which different people have been working includes Arts, Music, Dance, Drama,
-							Culture, Agriculture, Water Harvesting, Health, Ayurveda, Nadi Pariksha (Pulse examination),
-							Yoga, Mathematics, Science and Technology, Physics, Chemistry, Botany, Zoology, Astronomy,
-							Energy sources, Panchang, Civil Engineering, Architecture, Temple Architecture, Materials and
-							Mechanical Engineering, Musical Instruments, Philosophy, Psychology, Geo Archeology, Social
-							Sciences, Management, Governance, Economics, Language, Literature, Linguistics, Sports,
-							Mantras, Genetics, Embryo, Gynaecology, Computational Sanskrit, Ancient universities,
-							Effective teaching learning systems etc.
+							In order to promote interdisciplinary research on all aspects of Indian Knowledge Systems, preserve, and disseminate Indian Knowledge Systems for  further research and societal applications, MHRD desires to create a database of individuals and organizations who have contributed by way of Research, Teaching, Publication and Preservation of ancient and contemporary rich Indian Knowledge Systems ranging from art, music, dance, drama, mathematics, astronomy, science, technology, life sciences, environment and natural sciences, health care, yoga, law, jurisprudence, economics, social sciences, psychology, philosophy, management, linguistics, oral traditions of India, knowledge hidden in Sanskrit, Prakrit, Tamil, Pali etc and scrutinize the information, verify, put in context through interdisciplinary scientific investigation create a portal for archival and dissemination of this rich knowledge.
+							We appeal to you to share your interests on this portal for further processing and meet the above objectives.
 						</span>
 					</section>
 
@@ -87,13 +60,13 @@
 										
 
 
-										<small style="margin-right: 15%;">Worked As</small>
+										<small style="margin-right: 15%;">Working As</small>
 										<div class="col-4 col-12-small">
-											<input type="radio" id="demo-priority-normal" value="Individual" name="worked_as" checked>
+											<input type="radio" id="demo-priority-normal" value="Individual" name="worked_as" >
 											<label style="color: black;" for="demo-priority-normal">Individual</label>
 										</div>
 										<div class="col-4 col-12-small">
-											<input type="radio" id="demo-priority-high" value="Organization" name="worked_as">
+											<input type="radio" id="demo-priority-high" value="Organization" name="worked_as" checked>
 											<label style="color: black;" for="demo-priority-high">Organization</label>
 										</div>
 
@@ -101,7 +74,7 @@
 
 
 										<div class="col-12 col-12-xsmall">
-											<input id="workLocation" value="Not Selected" type="hidden" name="work_location" placeholder="Work Location/Institute" />
+											<input id="workLocation" value="" type="text" name="work_location" placeholder="Work Location/Institute" />
 										</div>
 
 									</div>
@@ -358,6 +331,8 @@
 										<!-- <div class="col-12"><textarea name="description" id="description" placeholder="Description" rows="4"></textarea></div> -->
 									</div>
 					</section>
+					<br>
+					<?php include './messages.php' ?>
 					<div class="col-12" style="margin-top: 2%;">
 						<ul style="margin-left: 30%;" class="actions">
 							<li><input type="submit" name="btnSubmit" value="Submit" class="primary" /></li>
