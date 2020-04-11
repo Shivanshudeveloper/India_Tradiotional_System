@@ -2594,7 +2594,7 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-image: url("https://s3.ap-south-1.amazonaws.com/hsdreams1/pins/2019/08/big/95b0ae39260ad65a9f1abc06475c6cbb.jpeg"), url("https://s3.ap-south-1.amazonaws.com/hsdreams1/pins/2019/08/big/95b0ae39260ad65a9f1abc06475c6cbb.jpeg");
+		background-image: url("https://cdn.pixabay.com/photo/2018/01/21/14/36/india-flag-3096740__340.png"), url("https://cdn.pixabay.com/photo/2018/01/21/14/36/india-flag-3096740__340.png");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
@@ -2605,7 +2605,7 @@ input, select, textarea {
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 35%;
+		width: 30%;
 	}
 
 		#header > * {
