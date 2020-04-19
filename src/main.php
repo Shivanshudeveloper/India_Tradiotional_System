@@ -37,10 +37,15 @@ if (isset($_POST['btnSubmit'])) {
     $future_anyOther = mysqli_real_escape_string($conn, $_POST['future_anyOther']);
     $description_future = mysqli_real_escape_string($conn, $_POST['description_future']);
 
-    $sql = "INSERT INTO indian_system (name, email, phone, worked_as, work_location, past_research_field_interest, past_publication_title, past_description, past_publication_url, past_video_url, past_expert_name, past_expert_email, past_expert_phone, past_expert_role, past_expert2_name, past_expert2_email, past_expert2_phone, past_expert2_role, present_research_field_interest, present_publication_title, present_description, present_publication_url, present_video_url, present_expert_name, present_expert_email, present_expert_phone, present_expert_role, present_expert2_name, present_expert2_email, present_expert2_phone, present_expert2_role, future_research_field_interest, future_any_other, description_future)
+    $past_research_field_interest_sub = mysqli_real_escape_string($conn, $_POST['past_research_field_interest_sub']);
+    $present_research_field_interest_sub = mysqli_real_escape_string($conn, $_POST['present_research_field_interest_sub']);
+    $future_research_field_interest_sub = mysqli_real_escape_string($conn, $_POST['future_research_field_interest_sub']);
+
+
+    $sql = "INSERT INTO indian_system (name, email, phone, worked_as, work_location, past_research_field_interest, past_publication_title, past_description, past_publication_url, past_video_url, past_expert_name, past_expert_email, past_expert_phone, past_expert_role, past_expert2_name, past_expert2_email, past_expert2_phone, past_expert2_role, present_research_field_interest, present_publication_title, present_description, present_publication_url, present_video_url, present_expert_name, present_expert_email, present_expert_phone, present_expert_role, present_expert2_name, present_expert2_email, present_expert2_phone, present_expert2_role, future_research_field_interest, future_any_other, description_future, past_sub, present_sub, future_sub)
      VALUES ('$name', '$email', '$phone', '$worked_as', '$work_location', '$past_research_field_interest', '$past_publication_title', '$past_description', '$past_publication_url', '$past_video_url', '$past_expert_name', '$past_expert_email', '$past_expert_phone', '$past_expert_role',
      '$past_expert2_name', '$past_expert2_email', '$past_expert2_phone', '$past_expert2_role', '$present_research_field_interest', '$present_publication_title', '$present_description', '$present_publication_url', '$present_video_url', '$present_expert_name', '$present_expert_email',
-     '$present_expert_phone', '$present_expert_role', '$present_expert2_name', '$present_expert2_email', '$present_expert2_phone', '$present_expert2_role', '$future_research_field_interest', '$future_anyOther' , '$description_future');";
+     '$present_expert_phone', '$present_expert_role', '$present_expert2_name', '$present_expert2_email', '$present_expert2_phone', '$present_expert2_role', '$future_research_field_interest', '$future_anyOther' , '$description_future', '$past_research_field_interest_sub', '$present_research_field_interest_sub', '$future_research_field_interest_sub');";
 
     mysqli_query($conn, $sql);
 
@@ -49,8 +54,6 @@ if (isset($_POST['btnSubmit'])) {
 }
 
 
-<?php
-include './dbh.php';
 
 if (isset($_POST['btnSubmit2'])) {
     $name = mysqli_real_escape_string($conn, $_POST['name']);
@@ -88,10 +91,14 @@ if (isset($_POST['btnSubmit2'])) {
     $future_anyOther = mysqli_real_escape_string($conn, $_POST['future_anyOther']);
     $description_future = mysqli_real_escape_string($conn, $_POST['description_future']);
 
-    $sql = "INSERT INTO indian_system (name, email, phone, worked_as, work_location, past_research_field_interest, past_publication_title, past_description, past_publication_url, past_video_url, past_expert_name, past_expert_email, past_expert_phone, past_expert_role, past_expert2_name, past_expert2_email, past_expert2_phone, past_expert2_role, present_research_field_interest, present_publication_title, present_description, present_publication_url, present_video_url, present_expert_name, present_expert_email, present_expert_phone, present_expert_role, present_expert2_name, present_expert2_email, present_expert2_phone, present_expert2_role, future_research_field_interest, future_any_other, description_future)
+    $past_research_field_interest_sub = mysqli_real_escape_string($conn, $_POST['past_research_field_interest_sub']);
+    $present_research_field_interest_sub = mysqli_real_escape_string($conn, $_POST['present_research_field_interest_sub']);
+    $future_research_field_interest_sub = mysqli_real_escape_string($conn, $_POST['future_research_field_interest_sub']);
+
+    $sql = "INSERT INTO indian_system (name, email, phone, worked_as, work_location, past_research_field_interest, past_publication_title, past_description, past_publication_url, past_video_url, past_expert_name, past_expert_email, past_expert_phone, past_expert_role, past_expert2_name, past_expert2_email, past_expert2_phone, past_expert2_role, present_research_field_interest, present_publication_title, present_description, present_publication_url, present_video_url, present_expert_name, present_expert_email, present_expert_phone, present_expert_role, present_expert2_name, present_expert2_email, present_expert2_phone, present_expert2_role, future_research_field_interest, future_any_other, description_future, past_sub, present_sub, future_sub)
      VALUES ('$name', '$email', '$phone', '$worked_as', '$work_location', '$past_research_field_interest', '$past_publication_title', '$past_description', '$past_publication_url', '$past_video_url', '$past_expert_name', '$past_expert_email', '$past_expert_phone', '$past_expert_role',
      '$past_expert2_name', '$past_expert2_email', '$past_expert2_phone', '$past_expert2_role', '$present_research_field_interest', '$present_publication_title', '$present_description', '$present_publication_url', '$present_video_url', '$present_expert_name', '$present_expert_email',
-     '$present_expert_phone', '$present_expert_role', '$present_expert2_name', '$present_expert2_email', '$present_expert2_phone', '$present_expert2_role', '$future_research_field_interest', '$future_anyOther' , '$description_future');";
+     '$present_expert_phone', '$present_expert_role', '$present_expert2_name', '$present_expert2_email', '$present_expert2_phone', '$present_expert2_role', '$future_research_field_interest', '$future_anyOther' , '$description_future', '$past_research_field_interest_sub', '$present_research_field_interest_sub', '$future_research_field_interest_sub');";
 
     mysqli_query($conn, $sql);
 

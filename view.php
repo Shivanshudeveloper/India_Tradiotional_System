@@ -36,6 +36,7 @@
                     <th scope="col">Worked As</th>
                     <th scope="col">Work Location</th>
                     <th scope="col">Past Research Interest</th>
+                    <th scope="col">Past Research Interest Sub Category</th>
                     <th scope="col">Past Research Publication</th>
                     <th scope="col">Past Research Description</th>
                     <th scope="col">Past Research Publication URL</th>
@@ -49,6 +50,7 @@
                     <th scope="col">Past Expert 2 Phone</th>
                     <th scope="col">Past Expert 2 Role</th>
                     <th scope="col">Present Research Interest</th>
+                    <th scope="col">Present Research Sub Category</th>
                     <th scope="col">Present Research Publication</th>
                     <th scope="col">Present Research Description</th>
                     <th scope="col">Present Research Publication URL</th>
@@ -62,6 +64,7 @@
                     <th scope="col">Present Expert 2 Phone</th>
                     <th scope="col">Present Expert 2 Role</th>
                     <th scope="col">Future Research Field Interest</th>
+                    <th scope="col">Future Research Sub Category</th>
                     <th scope="col">Future Research Any Other</th>
                     <th scope="col">Future Research Description</th>
                 </tr>
@@ -81,6 +84,7 @@
                         <td>'.$row['worked_as'].'</td>
                         <td>'.$row['work_location'].'</td>
                         <td>'.$row['past_research_field_interest'].'</td>
+                        <td>'.$row['past_sub'].'</td>
                         <td>'.$row['past_publication_title'].'</td>
                         <td>'.$row['past_description'].'</td>
                         <td>'.$row['past_publication_url'].'</td>
@@ -94,6 +98,7 @@
                         <td>'.$row['past_expert2_phone'].'</td>
                         <td>'.$row['past_expert2_role'].'</td>
                         <td>'.$row['present_research_field_interest'].'</td>
+                        <td>'.$row['present_sub'].'</td>
                         <td>'.$row['present_publication_title'].'</td>
                         <td>'.$row['present_description'].'</td>
                         <td>'.$row['present_publication_url'].'</td>
@@ -107,6 +112,7 @@
                         <td>'.$row['present_expert2_phone'].'</td>
                         <td>'.$row['present_expert2_role'].'</td>
                         <td>'.$row['future_research_field_interest'].'</td>
+                        <td>'.$row['future_sub'].'</td>
                         <td>'.$row['future_any_other'].'</td>
                         <td>'.$row['description_future'].'</td>
                     </tr>

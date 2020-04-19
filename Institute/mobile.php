@@ -41,7 +41,7 @@
 										
 
 
-										<!-- <small style="margin-right: 15%;">Working As</small>
+										<small style="margin-right: 15%;">Working As</small>
 										<div class="col-4 col-12-small">
 											<input type="radio" id="demo-priority-normal" value="Individual" name="worked_as" >
 											<label style="color: black;" for="demo-priority-normal">Individual</label>
@@ -49,14 +49,14 @@
 										<div class="col-4 col-12-small">
 											<input type="radio" id="demo-priority-high" value="Organization" name="worked_as" checked>
 											<label style="color: black;" for="demo-priority-high">Organization</label>
-										</div> -->
+										</div>
 
 										
 
 
-										<!-- <div class="col-12 col-12-xsmall">
+										<div class="col-12 col-12-xsmall">
 											<input id="workLocation" value="" type="text" name="work_location" placeholder="Work Location/Institute" />
-										</div> -->
+										</div>
 
 									</div>
 					</section>
@@ -66,13 +66,22 @@
 						<h2 style="color: black;">Select Your Expert Field</h2>
 									<div class="row gtr-uniform gtr-50">
 
-										<div class="col-12">
-											<select name="past_research_field_interest" id="demo-category">
-												<option value="">- Select Your Expert Field -</option>
-												<option value="">Expert 1</option>
-												<option value="">Expert 2</option>
-												<option value="">Expert 3</option>
-												<option value="">Expert 4</option>
+										<div class="col-6 col-12-xsmall">
+											<select name="expert" id="expert">
+												<option value="">- Select Your Field of Interest -</option>
+												<option value="Science, Engineering, Technology">Science, Engineering, Technology</option>
+												<option value="Health, Wellness">Health, Wellness</option>
+												<option value="Psychology, Cognition, linguistics, Phoenetics,  Epistomology">Psychology, Cognition, linguistics, Phoenetics,  Epistomology</option>
+												<option value="Management, Administration, Law, Governance">Management, Administration, Law, Governance</option>
+												<option value="Art, literature, Culture, Aesthetics folklore, Education">Art, literature, Culture, Aesthetics folklore, Education</option>
+												<option value="Indian Traditional Knowledge Base">Indian Traditional Knowledge Base</option>
+											</select>
+										</div>
+
+
+										<div class="col-6 col-12-xsmall">
+											<select name="expert_sub" id="expert_sub">
+												
 											</select>
 										</div>
 
@@ -84,64 +93,64 @@
 						<h2 style="color: black;">Define 20 major Problems/Issues/Concerns</h2>
 									<div class="row gtr-uniform gtr-50">
 
-										<small>Problem 1</small>
+										<small>Research Requirement/Problems 1</small>
 										<div class="col-12"><textarea name="problem1" id="problem1" placeholder="Description" rows="4"></textarea></div>
 
-										<small>Problem 2</small>
+										<small>Research Requirement/Problems 2</small>
 										<div class="col-12"><textarea name="problem2" id="problem2" placeholder="Description" rows="4"></textarea></div>
 
-										<small>Problem 3</small>
+										<small>Research Requirement/Problems 3</small>
 										<div class="col-12"><textarea name="problem3" id="problem3" placeholder="Description" rows="4"></textarea></div>
 
-										<small>Problem 4</small>
+										<small>Research Requirement/Problems 4</small>
 										<div class="col-12"><textarea name="problem4" id="problem4" placeholder="Description" rows="4"></textarea></div>
 
-										<small>Problem 5</small>
+										<small>Research Requirement/Problems 5</small>
 										<div class="col-12"><textarea name="problem5" id="problem5" placeholder="Description" rows="4"></textarea></div>
 
-										<small>Problem 6</small>
+										<small>Research Requirement/Problems 6</small>
 										<div class="col-12"><textarea name="problem6" id="problem6" placeholder="Description" rows="4"></textarea></div>
 
-										<small>Problem 7</small>
+										<small>Research Requirement/Problems 7</small>
 										<div class="col-12"><textarea name="problem7" id="problem7" placeholder="Description" rows="4"></textarea></div>
 
-										<small>Problem 8</small>
+										<small>Research Requirement/Problems 8</small>
 										<div class="col-12"><textarea name="problem8" id="problem8" placeholder="Description" rows="4"></textarea></div>
 
-										<small>Problem 9</small>
+										<small>Research Requirement/Problems 9</small>
 										<div class="col-12"><textarea name="problem9" id="problem9" placeholder="Description" rows="4"></textarea></div>
 
-										<small>Problem 10</small>
+										<small>Research Requirement/Problems 10</small>
 										<div class="col-12"><textarea name="problem10" id="problem10" placeholder="Description" rows="4"></textarea></div>
 
-										<small>Problem 11</small>
+										<small>Research Requirement/Problems 11</small>
 										<div class="col-12"><textarea name="problem11" id="problem11" placeholder="Description" rows="4"></textarea></div>
 
-										<small>Problem 12</small>
+										<small>Research Requirement/Problems 12</small>
 										<div class="col-12"><textarea name="problem12" id="problem12" placeholder="Description" rows="4"></textarea></div>
 
-										<small>Problem 13</small>
+										<small>Research Requirement/Problems 13</small>
 										<div class="col-12"><textarea name="problem13" id="problem13" placeholder="Description" rows="4"></textarea></div>
 
-										<small>Problem 14</small>
+										<small>Research Requirement/Problems 14</small>
 										<div class="col-12"><textarea name="problem14" id="problem14" placeholder="Description" rows="4"></textarea></div>
 
-										<small>Problem 15</small>
+										<small>Research Requirement/Problems 15</small>
 										<div class="col-12"><textarea name="problem15" id="problem15" placeholder="Description" rows="4"></textarea></div>
 
-										<small>Problem 16</small>
+										<small>Research Requirement/Problems 16</small>
 										<div class="col-12"><textarea name="problem16" id="problem16" placeholder="Description" rows="4"></textarea></div>
 
-										<small>Problem 17</small>
+										<small>Research Requirement/Problems 17</small>
 										<div class="col-12"><textarea name="problem17" id="problem17" placeholder="Description" rows="4"></textarea></div>
 
-										<small>Problem 18</small>
+										<small>Research Requirement/Problems 18</small>
 										<div class="col-12"><textarea name="problem18" id="problem18" placeholder="Description" rows="4"></textarea></div>
 
-										<small>Problem 19</small>
+										<small>Research Requirement/Problems 19</small>
 										<div class="col-12"><textarea name="problem19" id="problem19" placeholder="Description" rows="4"></textarea></div>
 
-										<small>Problem 20</small>
+										<small>Research Requirement/Problems 20</small>
 										<div class="col-12"><textarea name="problem20" id="problem20" placeholder="Description" rows="4"></textarea></div>
 
 

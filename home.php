@@ -72,62 +72,25 @@
 
 				<!-- Three -->
 					<section id="three">
-						<h2 style="color: black;">Past Research</h2>
+						<h2 style="color: black;">Past Research/Work/Project</h2>
 									<div class="row gtr-uniform gtr-50">
 
-										<div class="col-12">
-											<select name="past_research_field_interest" id="demo-category">
+										<div class="col-6 col-12-xsmall">
+											<select name="past_research_field_interest" id="past_research_field_interest">
 												<option value="">- Select Your Field of Interest -</option>
-												<option value="Arts">Arts</option>
-												<option value="Music">Music</option>
-												<option value="Dance">Dance</option>
-												<option value="Drama">Drama</option>
-												<option value="Culture">Culture</option>
-												<option value="Agriculture">Agriculture</option>
-												<option value="Water">Water</option>
-												<option value="Harvesting">Harvesting</option>
-												<option value="Health">Health</option>
-												<option value="Ayurveda">Ayurveda</option>
-												<option value="Nadi Pariksha (Pulse examination)">Nadi Pariksha (Pulse examination)</option>
-												<option value="Yoga">Yoga</option>
-												<option value="Mathematics">Mathematics</option>
-												<option value="Science and Technology">Science and Technology</option>
-												<option value="Physics">Physics</option>
-												<option value="Chemistry">Chemistry</option>
-												<option value="Botany">Botany</option>
-												<option value="Zoology">Zoology</option>
-												<option value="Astronomy">Astronomy</option>
-												<option value="Energy">Energy</option>
-												<option value="Sources">Sources</option>
-												<option value="Panchang">Panchang</option>
-												<option value="Civil">Civil</option>
-												<option value="Engineering">Engineering</option>
-												<option value="Architecture">Architecture</option>
-												<option value="Temple Architecture">Temple Architecture</option>
-												<option value="Materials and Mechanical Engineering">Materials and Mechanical Engineering</option>
-												<option value="Musical Instruments">Musical Instruments</option>
-												<option value="Philosophy">Philosophy</option>
-												<option value="Geo Archeology">Geo Archeology</option>
-												<option value="Social Sciences">Social Sciences</option>
-												<option value="Management">Management</option>
-												<option value="Governance">Governance</option>
-												<option value="Economics">Economics</option>
-												<option value="Language">Language</option>
-												<option value="Literature">Literature</option>
-												<option value="Linguistics">Linguistics</option>
-												<option value="Sports">Sports</option>
-												<option value="Mantras">Mantras</option>
-												<option value="Genetics">Genetics</option>
-												<option value="Embryo">Embryo</option>
-												<option value="Gynaecology">Gynaecology</option>
-												<option value="Computational Sanskrit">Computational Sanskrit</option>
-												<option value="Ancient universities">Ancient universities</option>
-												<option value="Effective teaching learning systems">Effective teaching learning systems</option>
-												<option value="Oral Tradition">Oral Tradition</option>
-												<option value="Ancient knowledge in sanskrit">Ancient knowledge in sanskrit</option>
-												<option value="Ancient knowledge in tamil">Ancient knowledge in tamil</option>
-												<option value="Ancient knowledge in prakriti">Ancient knowledge in prakriti</option>
-												<option value="Ancient knowledge in pali">Ancient knowledge in pali</option>
+												<option value="Science, Engineering, Technology">Science, Engineering, Technology</option>
+												<option value="Health, Wellness">Health, Wellness</option>
+												<option value="Psychology, Cognition, linguistics, Phoenetics,  Epistomology">Psychology, Cognition, linguistics, Phoenetics,  Epistomology</option>
+												<option value="Management, Administration, Law, Governance">Management, Administration, Law, Governance</option>
+												<option value="Art, literature, Culture, Aesthetics folklore, Education">Art, literature, Culture, Aesthetics folklore, Education</option>
+												<option value="Indian Traditional Knowledge Base">Indian Traditional Knowledge Base</option>
+											</select>
+										</div>
+
+
+										<div class="col-6 col-12-xsmall">
+											<select name="past_research_field_interest_sub" id="past_research_field_interest_sub">
+												
 											</select>
 										</div>
 
@@ -157,62 +120,25 @@
 					</section>
 
 					<section id="three">
-						<h2 style="color: black;">Present Research</h2>
+						<h2 style="color: black;">Present Research/Work/Project</h2>
 									<div class="row gtr-uniform gtr-50">
 
-										<div class="col-12">
-											<select name="present_research_field_interest" id="demo-category">
+										<div class="col-6 col-12-xsmall">
+											<select name="present_research_field_interest" id="present_research_field_interest">
 												<option value="">- Select Your Field of Interest -</option>
-												<option value="Arts">Arts</option>
-												<option value="Music">Music</option>
-												<option value="Dance">Dance</option>
-												<option value="Drama">Drama</option>
-												<option value="Culture">Culture</option>
-												<option value="Agriculture">Agriculture</option>
-												<option value="Water">Water</option>
-												<option value="Harvesting">Harvesting</option>
-												<option value="Health">Health</option>
-												<option value="Ayurveda">Ayurveda</option>
-												<option value="Nadi Pariksha (Pulse examination)">Nadi Pariksha (Pulse examination)</option>
-												<option value="Yoga">Yoga</option>
-												<option value="Mathematics">Mathematics</option>
-												<option value="Science and Technology">Science and Technology</option>
-												<option value="Physics">Physics</option>
-												<option value="Chemistry">Chemistry</option>
-												<option value="Botany">Botany</option>
-												<option value="Zoology">Zoology</option>
-												<option value="Astronomy">Astronomy</option>
-												<option value="Energy">Energy</option>
-												<option value="Sources">Sources</option>
-												<option value="Panchang">Panchang</option>
-												<option value="Civil">Civil</option>
-												<option value="Engineering">Engineering</option>
-												<option value="Architecture">Architecture</option>
-												<option value="Temple Architecture">Temple Architecture</option>
-												<option value="Materials and Mechanical Engineering">Materials and Mechanical Engineering</option>
-												<option value="Musical Instruments">Musical Instruments</option>
-												<option value="Philosophy">Philosophy</option>
-												<option value="Geo Archeology">Geo Archeology</option>
-												<option value="Social Sciences">Social Sciences</option>
-												<option value="Management">Management</option>
-												<option value="Governance">Governance</option>
-												<option value="Economics">Economics</option>
-												<option value="Language">Language</option>
-												<option value="Literature">Literature</option>
-												<option value="Linguistics">Linguistics</option>
-												<option value="Sports">Sports</option>
-												<option value="Mantras">Mantras</option>
-												<option value="Genetics">Genetics</option>
-												<option value="Embryo">Embryo</option>
-												<option value="Gynaecology">Gynaecology</option>
-												<option value="Computational Sanskrit">Computational Sanskrit</option>
-												<option value="Ancient universities">Ancient universities</option>
-												<option value="Effective teaching learning systems">Effective teaching learning systems</option>
-												<option value="Oral Tradition">Oral Tradition</option>
-												<option value="Ancient knowledge in sanskrit">Ancient knowledge in sanskrit</option>
-												<option value="Ancient knowledge in tamil">Ancient knowledge in tamil</option>
-												<option value="Ancient knowledge in prakriti">Ancient knowledge in prakriti</option>
-												<option value="Ancient knowledge in pali">Ancient knowledge in pali</option>
+												<option value="Science, Engineering, Technology">Science, Engineering, Technology</option>
+												<option value="Health, Wellness">Health, Wellness</option>
+												<option value="Psychology, Cognition, linguistics, Phoenetics,  Epistomology">Psychology, Cognition, linguistics, Phoenetics,  Epistomology</option>
+												<option value="Management, Administration, Law, Governance">Management, Administration, Law, Governance</option>
+												<option value="Art, literature, Culture, Aesthetics folklore, Education">Art, literature, Culture, Aesthetics folklore, Education</option>
+												<option value="Indian Traditional Knowledge Base">Indian Traditional Knowledge Base</option>
+											</select>
+										</div>
+
+
+										<div class="col-6 col-12-xsmall">
+											<select name="present_research_field_interest_sub" id="present_research_field_interest_sub">
+												
 											</select>
 										</div>
 
@@ -241,67 +167,31 @@
 					</section>
 
 					<section id="three">
-						<h2 style="color: black;">Intrested field of Future research and IKS activities</h2>
+						<h2 style="color: black;">Intrested field of Future research</h2>
 									<div class="row gtr-uniform gtr-50">
 
 
-										<div class="col-12 col-12-xsmall">
-											<select name="future_research_field_interest" id="demo-category">
+										<div class="col-6 col-12-xsmall">
+											<select name="future_research_field_interest" id="future_research_field_interest">
 												<option value="">- Select Your Field of Interest -</option>
-												<option value="Arts">Arts</option>
-												<option value="Music">Music</option>
-												<option value="Dance">Dance</option>
-												<option value="Drama">Drama</option>
-												<option value="Culture">Culture</option>
-												<option value="Agriculture">Agriculture</option>
-												<option value="Water">Water</option>
-												<option value="Harvesting">Harvesting</option>
-												<option value="Health">Health</option>
-												<option value="Ayurveda">Ayurveda</option>
-												<option value="Nadi Pariksha (Pulse examination)">Nadi Pariksha (Pulse examination)</option>
-												<option value="Yoga">Yoga</option>
-												<option value="Mathematics">Mathematics</option>
-												<option value="Science and Technology">Science and Technology</option>
-												<option value="Physics">Physics</option>
-												<option value="Chemistry">Chemistry</option>
-												<option value="Botany">Botany</option>
-												<option value="Zoology">Zoology</option>
-												<option value="Astronomy">Astronomy</option>
-												<option value="Energy">Energy</option>
-												<option value="Sources">Sources</option>
-												<option value="Panchang">Panchang</option>
-												<option value="Civil">Civil</option>
-												<option value="Engineering">Engineering</option>
-												<option value="Architecture">Architecture</option>
-												<option value="Temple Architecture">Temple Architecture</option>
-												<option value="Materials and Mechanical Engineering">Materials and Mechanical Engineering</option>
-												<option value="Musical Instruments">Musical Instruments</option>
-												<option value="Philosophy">Philosophy</option>
-												<option value="Geo Archeology">Geo Archeology</option>
-												<option value="Social Sciences">Social Sciences</option>
-												<option value="Management">Management</option>
-												<option value="Governance">Governance</option>
-												<option value="Economics">Economics</option>
-												<option value="Language">Language</option>
-												<option value="Literature">Literature</option>
-												<option value="Linguistics">Linguistics</option>
-												<option value="Sports">Sports</option>
-												<option value="Mantras">Mantras</option>
-												<option value="Genetics">Genetics</option>
-												<option value="Embryo">Embryo</option>
-												<option value="Gynaecology">Gynaecology</option>
-												<option value="Computational Sanskrit">Computational Sanskrit</option>
-												<option value="Ancient universities">Ancient universities</option>
-												<option value="Effective teaching learning systems">Effective teaching learning systems</option>
-												<option value="Oral Tradition">Oral Tradition</option>
-												<option value="Ancient knowledge in sanskrit">Ancient knowledge in sanskrit</option>
-												<option value="Ancient knowledge in tamil">Ancient knowledge in tamil</option>
-												<option value="Ancient knowledge in prakriti">Ancient knowledge in prakriti</option>
-												<option value="Ancient knowledge in pali">Ancient knowledge in pali</option>
+												<option value="Science, Engineering, Technology">Science, Engineering, Technology</option>
+												<option value="Health, Wellness">Health, Wellness</option>
+												<option value="Psychology, Cognition, linguistics, Phoenetics,  Epistomology">Psychology, Cognition, linguistics, Phoenetics,  Epistomology</option>
+												<option value="Management, Administration, Law, Governance">Management, Administration, Law, Governance</option>
+												<option value="Art, literature, Culture, Aesthetics folklore, Education">Art, literature, Culture, Aesthetics folklore, Education</option>
+												<option value="Indian Traditional Knowledge Base">Indian Traditional Knowledge Base</option>
+											</select>
+										</div>
+
+
+										<div class="col-6 col-12-xsmall">
+											<select name="future_research_field_interest_sub" id="future_research_field_interest_sub">
+												
 											</select>
 										</div>
 
 										<div class="col-12 col-12-xsmall">
+											<h2 style="color: black;">How You Want to Contribute to IKS activities</h2>
 											<select name="future_anyOther" id="future_anyOther">
 												<option selected disabled>- Any other tasks of IKS division -</option>
 												<option value="Identify Scholars & Institutions in IKS & collect information">Identify Scholars & Institutions in IKS & collect information</option>

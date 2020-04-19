@@ -2594,7 +2594,7 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-image: url("https://cdn.pixabay.com/photo/2018/01/21/14/36/india-flag-3096740__340.png"), url("https://cdn.pixabay.com/photo/2018/01/21/14/36/india-flag-3096740__340.png");
+		background-image: url("https://s3.ap-south-1.amazonaws.com/hsdreams1/pins/2019/08/big/748a5624b362491b2e230c70a8f04a75.jpeg"), url("https://s3.ap-south-1.amazonaws.com/hsdreams1/pins/2019/08/big/748a5624b362491b2e230c70a8f04a75.jpeg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;

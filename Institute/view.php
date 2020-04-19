@@ -17,8 +17,8 @@
   
  
         <?php
-            include_once './src/dbh.php';
-            $sql = "SELECT * FROM indian_system;";
+            include_once '../src/dbh.php';
+            $sql = "SELECT * FROM institutes;";
             $result = mysqli_query($conn, $sql);
             $resultChk = mysqli_num_rows($result);
             
@@ -33,37 +33,36 @@
                     <th scope="col">Full Name</th>
                     <th scope="col">Email</th>
                     <th scope="col">Phone</th>
+
                     <th scope="col">Worked As</th>
-                    <th scope="col">Work Location</th>
-                    <th scope="col">Past Research Interest</th>
-                    <th scope="col">Past Research Publication</th>
-                    <th scope="col">Past Research Description</th>
-                    <th scope="col">Past Research Publication URL</th>
-                    <th scope="col">Past Research Video URL</th>
-                    <th scope="col">Past Expert 1 Name</th>
-                    <th scope="col">Past Expert 1 Email</th>
-                    <th scope="col">Past Expert 1 Phone</th>
-                    <th scope="col">Past Expert 1 Role</th>
-                    <th scope="col">Past Expert 2 Name</th>
-                    <th scope="col">Past Expert 2 Email</th>
-                    <th scope="col">Past Expert 2 Phone</th>
-                    <th scope="col">Past Expert 2 Role</th>
-                    <th scope="col">Present Research Interest</th>
-                    <th scope="col">Present Research Publication</th>
-                    <th scope="col">Present Research Description</th>
-                    <th scope="col">Present Research Publication URL</th>
-                    <th scope="col">Present Research Video URL</th>
-                    <th scope="col">Present Expert 1 Name</th>
-                    <th scope="col">Present Expert 1 Email</th>
-                    <th scope="col">Present Expert 1 Phone</th>
-                    <th scope="col">Present Expert 1 Role</th>
-                    <th scope="col">Present Expert 2 Name</th>
-                    <th scope="col">Present Expert 2 Email</th>
-                    <th scope="col">Present Expert 2 Phone</th>
-                    <th scope="col">Present Expert 2 Role</th>
-                    <th scope="col">Future Research Field Interest</th>
-                    <th scope="col">Future Research Any Other</th>
-                    <th scope="col">Future Research Description</th>
+                    <th scope="col">Work Location/Institute</th>
+
+
+                    <th scope="col">Expert Name</th>
+
+                    <th scope="col">Expert Sub Category</th>
+
+                    <th scope="col">Problem 1</th>
+                    <th scope="col">Problem 2</th>
+                    <th scope="col">Problem 3</th>
+                    <th scope="col">Problem 4</th>
+                    <th scope="col">Problem 5</th>
+                    <th scope="col">Problem 6</th>
+                    <th scope="col">Problem 7</th>
+                    <th scope="col">Problem 8</th>
+                    <th scope="col">Problem 9</th>
+                    <th scope="col">Problem 10</th>
+
+                    <th scope="col">Problem 11</th>
+                    <th scope="col">Problem 12</th>
+                    <th scope="col">Problem 13</th>
+                    <th scope="col">Problem 14</th>
+                    <th scope="col">Problem 15</th>
+                    <th scope="col">Problem 16</th>
+                    <th scope="col">Problem 17</th>
+                    <th scope="col">Problem 18</th>
+                    <th scope="col">Problem 19</th>
+                    <th scope="col">Problem 20</th>
                 </tr>
             </thead>
             <tbody>
@@ -78,37 +77,36 @@
                         <td>'.$row['name'].'</td>
                         <td>'.$row['email'].'</td>
                         <td>'.$row['phone'].'</td>
+
                         <td>'.$row['worked_as'].'</td>
                         <td>'.$row['work_location'].'</td>
-                        <td>'.$row['past_research_field_interest'].'</td>
-                        <td>'.$row['past_publication_title'].'</td>
-                        <td>'.$row['past_description'].'</td>
-                        <td>'.$row['past_publication_url'].'</td>
-                        <td>'.$row['past_video_url'].'</td>
-                        <td>'.$row['past_expert_name'].'</td>
-                        <td>'.$row['past_expert_email'].'</td>
-                        <td>'.$row['past_expert_phone'].'</td>
-                        <td>'.$row['past_expert_role'].'</td>
-                        <td>'.$row['past_expert2_name'].'</td>
-                        <td>'.$row['past_expert2_email'].'</td>
-                        <td>'.$row['past_expert2_phone'].'</td>
-                        <td>'.$row['past_expert2_role'].'</td>
-                        <td>'.$row['present_research_field_interest'].'</td>
-                        <td>'.$row['present_publication_title'].'</td>
-                        <td>'.$row['present_description'].'</td>
-                        <td>'.$row['present_publication_url'].'</td>
-                        <td>'.$row['present_video_url'].'</td>
-                        <td>'.$row['present_expert_name'].'</td>
-                        <td>'.$row['present_expert_email'].'</td>
-                        <td>'.$row['present_expert_phone'].'</td>
-                        <td>'.$row['present_expert_role'].'</td>
-                        <td>'.$row['present_expert2_name'].'</td>
-                        <td>'.$row['present_expert2_email'].'</td>
-                        <td>'.$row['present_expert2_phone'].'</td>
-                        <td>'.$row['present_expert2_role'].'</td>
-                        <td>'.$row['future_research_field_interest'].'</td>
-                        <td>'.$row['future_any_other'].'</td>
-                        <td>'.$row['description_future'].'</td>
+
+
+                        <td>'.$row['expert'].'</td>
+                        <td>'.$row['expert_sub'].'</td>
+
+                        <td>'.$row['problem1'].'</td>
+                        <td>'.$row['problem2'].'</td>
+                        <td>'.$row['problem3'].'</td>
+                        <td>'.$row['problem4'].'</td>
+                        <td>'.$row['problem5'].'</td>
+                        <td>'.$row['problem6'].'</td>
+                        <td>'.$row['problem7'].'</td>
+                        <td>'.$row['problem8'].'</td>
+                        <td>'.$row['problem9'].'</td>
+                        <td>'.$row['problem10'].'</td>
+
+                        <td>'.$row['problem11'].'</td>
+                        <td>'.$row['problem12'].'</td>
+                        <td>'.$row['problem13'].'</td>
+                        <td>'.$row['problem14'].'</td>
+                        <td>'.$row['problem15'].'</td>
+                        <td>'.$row['problem16'].'</td>
+                        <td>'.$row['problem17'].'</td>
+                        <td>'.$row['problem18'].'</td>
+                        <td>'.$row['problem19'].'</td>
+                        <td>'.$row['problem20'].'</td>
+
                     </tr>
                 ';
             }
