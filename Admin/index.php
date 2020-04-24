@@ -8,9 +8,12 @@
                     <div class="banner_text">
                         <div class="banner_text_iner">
                             <h1>Research in Indian Traditional Knowledge System</h1>
+
                             
-                            <a href="register.php" class="btn_1">Register</a>
-                            <a href="#!" data-toggle="modal" data-target="#exampleModallogin" class="btn_1">Login</a>
+                            <a href="register.php" class="btn btn-outline-primary btn-lg">Register</a>
+                            <a href="#!" data-toggle="modal" data-target="#exampleModallogin" class="btn btn-primary btn-lg">Login</a>
+
+                            
 
                             <div class="modal fade" id="exampleModallogin" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                 <div class="modal-dialog" role="document">

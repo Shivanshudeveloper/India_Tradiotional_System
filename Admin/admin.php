@@ -3,12 +3,6 @@
 <section style="margin-top: 10%">
     <div class="container">
         <p class="float-right">
-            <button class="btn btn-sm btn-outline-primary">
-                Researcher Accepted
-            </button>
-            <button class="btn btn-sm btn-outline-info">
-                Researcher Rejected
-            </button>
 
             <button class="btn btn-sm btn-outline-danger">
                 Logout
@@ -17,7 +11,7 @@
 
 
         <h3>
-            Review
+            Assign Review Task
         </h3>
         <table class="table">
         <thead class="thead-light">
@@ -25,8 +19,6 @@
             <th scope="col">#</th>
             <th scope="col">Full Name</th>
             <th scope="col">Project Title</th>
-            <th scope="col"></th>
-            <th scope="col"></th>
             <th scope="col"></th>
             </tr>
         </thead>
@@ -64,20 +56,17 @@
 
                         <hr>
                         <h4>
-                            Action
+                            Assign Category
                         </h4>
-                        <div class="row">
-                            <div class="col">
-                                <button class="btn btn-block btn-primary">
-                                    Accept
-                                </button>
-                            </div>
-                            <div class="col">
-                                <button class="btn btn-block btn-outline-danger">
-                                    Reject
-                                </button>
-                            </div>
-                        </div>
+                        <select class="form-control" name="category" id="category">
+							<option value="">- Select Category -</option>
+			    			<option value="Science, Engineering, Technology">Science, Engineering, Technology</option>
+							<option value="Health, Wellness">Health, Wellness</option>
+			    			<option value="Psychology, Cognition, linguistics, Phoenetics,  Epistomology">Psychology, Cognition, linguistics, Phoenetics,  Epistomology</option>
+							<option value="Management, Administration, Law, Governance">Management, Administration, Law, Governance</option>
+							<option value="Art, literature, Culture, Aesthetics folklore, Education">Art, literature, Culture, Aesthetics folklore, Education</option>
+							<option value="Indian Traditional Knowledge Base">Indian Traditional Knowledge Base</option>
+						</select>
                         <hr>
 
                         <span>

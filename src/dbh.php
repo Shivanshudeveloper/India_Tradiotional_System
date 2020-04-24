@@ -1,5 +1,5 @@
 <?php
-$dbname = "aicte_test";
+$dbname = "its";
 $dbservername = "localhost";
 $dbusername = "root";
 $dbpassword = "";
