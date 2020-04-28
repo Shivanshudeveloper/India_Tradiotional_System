@@ -10,8 +10,8 @@
                             <h1>Research in Indian Traditional Knowledge System</h1>
 
                             
-                            <a href="register.php" class="btn btn-outline-primary btn-lg">Register</a>
-                            <a href="#!" data-toggle="modal" data-target="#exampleModallogin" class="btn btn-primary btn-lg">Login</a>
+                            <a href="register.php" class="btn btn-outline-primary btn-lg w-25">Register</a>
+                            <a href="#!" data-toggle="modal" data-target="#exampleModallogin" class="btn btn-primary btn-lg w-25">Login</a>
 
                             
 

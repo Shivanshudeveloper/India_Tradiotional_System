@@ -206,4 +206,27 @@ $(document).ready(function(){
 			`);
 		}
 	});
+	
+	// Submit Form and Send the Mail
+	$("#btnSubmit").click(() => {
+		swal({
+			title: "Are you sure you like to submit the form?",
+			text: "",
+			icon: "warning",
+			buttons: true,
+			dangerMode: true,
+		  })
+		  .then((willDelete) => {
+			if (willDelete) {
+			  swal("Successfully Submitted", {
+				icon: "success",
+			  }).then(() => {
+				$("#iks_form").submit();  
+			  })
+			} else {
+			  swal("Your imaginary file is safe!");
+			}
+		  });
+	});
+
 });

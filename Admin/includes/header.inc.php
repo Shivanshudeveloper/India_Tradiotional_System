@@ -26,6 +26,8 @@
     <script src="./includes/ckeditor/ckeditor.js"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="./src/js/main.js"></script>
+    <script src="./src/css/multiselect.css"></script>
+    <script src="./src/js/multiselect.min.js"></script>
 
 </head>
 
@@ -37,7 +39,7 @@
                 <div class="col-lg-8 col-xl-8">
                     <nav class="navbar navbar-expand-lg navbar-light">
                         <a class="navbar-brand" href="index.php"> 
-                            <img style="width: 40%;" src="https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/All_India_Council_for_Technical_Education_logo.png/220px-All_India_Council_for_Technical_Education_logo.png" alt="" srcset="">    
+                            <img style="width: 50%;" src="./images/logoFtr.png" alt="" srcset="">    
                         </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -48,9 +50,12 @@
                         <div class="collapse navbar-collapse main-menu-item justify-content-end"
                             id="navbarSupportedContent">
                             <ul class="navbar-nav">
-                                <!-- <li class="nav-item active">
-                                    <a class="nav-link" href="index.php">Home </a>
-                                </li> -->
+                                <li class="nav-item active">
+                                    <a style="font-size: 100%;" class="nav-link h1" href="#!">
+                                        <span class="h3"> Bharatiya Jnana Parampara  </span>
+                                        
+                                    </a>
+                                </li>
                                 <!-- <li class="nav-item">
                                     <a class="nav-link" href="about.html">About</a>
                                 </li>

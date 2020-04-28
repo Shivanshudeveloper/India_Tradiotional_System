@@ -34,7 +34,7 @@
                 <div class="col-lg-8 col-xl-8">
                     <nav class="navbar navbar-expand-lg navbar-light">
                         <a class="navbar-brand" href="index.php"> 
-                            <img style="width: 40%;" src="https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/All_India_Council_for_Technical_Education_logo.png/220px-All_India_Council_for_Technical_Education_logo.png" alt="" srcset="">    
+                            <img style="width: 50%;" class="m-4" src="./images/logoFtr.png" alt="" srcset="">
                         </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -60,10 +60,10 @@
     <div class="container">
 
         <p class="float-right">
-            <a href="approval.php" class="btn btn-sm text-primary btn-outline-link">
+            <!-- <a href="approval.php" class="btn btn-sm text-primary btn-outline-link">
                 Approval Management
-            </a>
-            <a href="admin.php" class="btn btn-sm text-primary btn-outline-link">
+            </a> -->
+            <a href="reviewer.php" class="btn btn-sm text-primary btn-outline-link">
                 Researchers List
             </a>
 

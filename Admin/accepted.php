@@ -3,68 +3,57 @@
 <section style="margin-top: 10%">
     <div class="container">
 
-    <br>
-    <br>
 
+        <div class="form-group">
+            <label for="exampleInputEmail1">Search</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <center>
+            <button class="btn btn-primary">Search</button>
+        </center>
 
-        <p class="float-right mb-2">
-            <a href="dashboard.php" class="btn text-primary btn-sm btn-outline-link">
-                My Projects
+        <p class="float-right">
+            <a href="dashboard.php" class="btn btn-sm btn-outline-secondary">
+                Researcher Review
             </a>
-            <a href="addnewproject.php" class="btn text-primary btn-sm btn-outline-link">
-                Add New Project
+            <a href="accepted.php" class="btn btn-sm btn-outline-primary">
+                Researcher Accepted
             </a>
-            <!-- <a href="rejected.php" class="btn btn-sm btn-outline-info">
+            <a href="rejected.php" class="btn btn-sm btn-outline-info">
                 Researcher Rejected
-            </a> -->
+            </a>
 
             <a href="index.php" class="btn btn-sm btn-outline-danger">
                 Logout
             </a>
         </p>
 
-
-        <div class="form-group">
-            <label for="exampleInputEmail1">Search</label>
-            <input type="text" class="form-control" placeholder="Document Title, Researcher, Approval, Category, Sub Category" id="exampleInputEmail1" aria-describedby="emailHelp">
-        </div>
-        <center>
-            <button class="btn btn-primary">Search</button>
-        </center>
-
-        
-
         
 
 
         <h3>
-            Project Review
+        All Researcher Accepted 
         </h3>
         <table class="table">
         <thead class="thead-light">
             <tr>
             <th scope="col">#</th>
-            <th scope="col">Project Name</th>
-            <th scope="col">Reviewer Name</th>
-            <th scope="col">Financial Assistance</th>
-            <th scope="col">Expert Assistance</th>
-            <th scope="col">Current Status</th>
-            <th scope="col">Approved Date</th>
+            <th scope="col">Full Name</th>
+            <th scope="col">Project Title</th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+            <th scope="col"></th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <th scope="row">1</th>
-                <td>Research in Science  Technology</td>
-                <td>Akash Goyal</td>
-                <td>10 Lakhs Rs</td>
-                <td>Aditya Sharma</td>
-                <td>In Progress</td>
-                <td>10 March 2020</td>
+                <td>Mark</td>
+                <td>Automobile</td>
 
-                <!-- <td>
+                <td>
                     <button data-toggle="modal" data-target="#exampleModal" class="btn btn-link">View</button>
-                </td> -->
+                </td>
 
                 <!-- Modal -->
                 <div class="modal fade bd-example-modal-lg" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -92,7 +81,7 @@
                         <h4>
                             Action
                         </h4>
-                        <div class="row">
+                        <!-- <div class="row">
                             <div class="col">
                                 <button class="btn btn-block btn-primary">
                                     Accept
@@ -103,7 +92,7 @@
                                     Reject
                                 </button>
                             </div>
-                        </div>
+                        </div> -->
                         <hr>
 
                         <span>
@@ -135,15 +124,34 @@
                 </div>
                 
             </tr>
-           
             <tr>
                 <th scope="row">2</th>
-                <td>Research in Healthcare</td>
-                <td>Raman Goyal</td>
-                <td>2 Lakhs Rs</td>
-                <td>Aditya Sharma</td>
-                <td>Sent for review</td>
-                <td>-</td>
+                <td>Clark</td>
+                <td>Automobile</td>
+
+                <td>
+                    <button class="btn btn-link">View</button>
+                </td>
+                
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Rohan</td>
+                <td>Automobile</td>
+
+                <td>
+                    <button class="btn btn-link">View</button>
+                </td>
+                
+            </tr>
+            <tr>
+                <th scope="row">4</th>
+                <td>Akash</td>
+                <td>Automobile</td>
+
+                <td>
+                    <button class="btn btn-link">View</button>
+                </td>
                 
             </tr>
         </tbody>

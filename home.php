@@ -7,6 +7,7 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<script src="./assets/ckeditor/ckeditor.js"></script>
 		<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+		<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 		<link rel="stylesheet" href="src/main.css" />
 	</head>
 	<body class="is-preload">
@@ -41,7 +42,7 @@
 				<!-- Two -->
 					<section id="two">
 						<h2 style="color: black;">Your Details</h2>
-								<form action="./src/main.php" method="POST" >
+								<form action="./src/main.php" id="iks_form" method="POST" >
 									<div class="row gtr-uniform gtr-50">
 										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Full Name" /></div>
 										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
@@ -215,7 +216,7 @@
 					<?php include './messages.php' ?>
 					<div class="col-12" style="margin-top: 2%;">
 						<ul style="margin-left: 30%;" class="actions">
-							<li><input type="submit" name="btnSubmit" value="Submit" class="primary" /></li>
+							<li><input type="button" id="btnSubmit" name="btnSubmit" value="Submit" class="primary" /></li>
 							<li><input type="reset" value="Reset" /></li>
 						</ul>
 					</div>
@@ -570,6 +571,9 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 				CKEDITOR.replace('past_description');
 				CKEDITOR.replace('description_future');
 			</script>
+
+
+			
 
 	</body>
 </html>
